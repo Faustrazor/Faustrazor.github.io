@@ -440,6 +440,15 @@ code {
   border-style: dashed;
 }
 
+.video-embed-card {
+  border-style: solid;
+}
+
+.video-embed-card .publication-video {
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-md);
+}
+
 @media screen and (max-width: 1024px) {
   .institution-logo-grid,
   .highlight-grid,
