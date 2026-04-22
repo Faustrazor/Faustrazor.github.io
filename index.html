@@ -4,14 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>DanceCrafter | Fine-Grained Text-Driven Controllable Dance Generation</title>
   <meta name="title" content="DanceCrafter: Fine-Grained Text-Driven Controllable Dance Generation via Choreographic Syntax">
   <meta name="description" content="Project page for DanceCrafter, a fine-grained text-driven controllable dance generation framework built on Choreographic Syntax and the DanceFlow dataset.">
   <meta name="keywords" content="dance generation, controllable motion generation, text-driven motion, choreography, DanceFlow, choreographic syntax, computer vision, generative AI">
   <meta name="author" content="Hang Yuan, Xiaolin Hu, Yan Wan, Menglin Gao, Wenzhe Yu, Cong Huang, Fei Xu, Qing Li, Christina Dan Wang, Zhou Yu, Kai Chen">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  <meta name="theme-color" content="#fff7ec">
 
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="DanceCrafter Project Page">
@@ -46,18 +44,37 @@
   <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2604.18648">
   <meta name="citation_arxiv_id" content="2604.18648">
 
+  <title>DanceCrafter - Author Names | Academic Research</title>
+
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
 
   <script type="application/ld+json">
@@ -66,14 +83,6 @@
     "@type": "ScholarlyArticle",
     "headline": "DanceCrafter: Fine-Grained Text-Driven Controllable Dance Generation via Choreographic Syntax",
     "description": "DanceCrafter introduces Choreographic Syntax, the DanceFlow dataset, and a tailored motion transformer for fine-grained text-driven controllable dance generation.",
-    "datePublished": "2026-04-20",
-    "url": "https://faustrazor.github.io/",
-    "image": "https://faustrazor.github.io/static/images/dancecrafter-head.png",
-    "isAccessibleForFree": true,
-    "sameAs": [
-      "https://arxiv.org/abs/2604.18648",
-      "https://arxiv.org/pdf/2604.18648"
-    ],
     "author": [
       { "@type": "Person", "name": "Hang Yuan" },
       { "@type": "Person", "name": "Xiaolin Hu" },
@@ -87,13 +96,12 @@
       { "@type": "Person", "name": "Zhou Yu" },
       { "@type": "Person", "name": "Kai Chen" }
     ],
-    "keywords": [
-      "dance generation",
-      "text-driven motion generation",
-      "choreographic syntax",
-      "DanceFlow",
-      "controllable generation"
-    ],
+    "datePublished": "2026-04-20",
+    "url": "https://faustrazor.github.io/",
+    "image": "https://faustrazor.github.io/static/images/dancecrafter-head.png",
+    "keywords": ["dance generation", "text-driven motion generation", "choreographic syntax", "DanceFlow", "controllable generation"],
+    "abstract": "Text-driven controllable dance generation remains under-explored, primarily due to the severe scarcity of high-quality datasets and the inherent difficulty of articulating complex choreographies.",
+    "isAccessibleForFree": true,
     "mainEntity": {
       "@type": "WebPage",
       "@id": "https://faustrazor.github.io/"
@@ -106,261 +114,229 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <header class="site-header">
-    <div class="container is-max-widescreen">
-      <div class="site-nav">
-        <a class="site-mark" href="#top">DanceCrafter</a>
-        <nav class="site-links" aria-label="Primary">
-          <a href="#overview">Overview</a>
-          <a href="#highlights">Highlights</a>
-          <a href="#videos">Videos</a>
-          <a href="#bibtex">BibTeX</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">DanceCrafter: Fine-Grained Text-Driven Controllable Dance Generation via Choreographic Syntax</h1>
 
-  <main id="top">
-    <section class="hero-panel">
-      <div class="container is-max-widescreen">
-        <div class="hero-grid">
-          <div class="hero-copy">
-            <div class="paper-chip-group">
-              <span class="paper-chip">arXiv 2604.18648</span>
-              <span class="paper-chip">cs.CV / cs.AI</span>
-              <span class="paper-chip">Submitted Apr 20, 2026</span>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">Hang Yuan<sup>1,4,5,*</sup>,</span>
+                <span class="author-block">Xiaolin Hu<sup>3,5,*</sup>,</span>
+                <span class="author-block">Yan Wan<sup>2</sup>,</span>
+                <span class="author-block">Menglin Gao<sup>2</sup>,</span>
+                <span class="author-block">Wenzhe Yu<sup>2</sup>,</span>
+                <span class="author-block">Cong Huang<sup>6</sup>,</span>
+                <span class="author-block">Fei Xu<sup>2</sup>,</span>
+                <span class="author-block">Qing Li<sup>2</sup>,</span>
+                <span class="author-block">Christina Dan Wang<sup>4,&dagger;</sup>,</span>
+                <span class="author-block">Zhou Yu<sup>1,&dagger;</sup>,</span>
+                <span class="author-block">Kai Chen<sup>6,&dagger;</sup></span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <div class="institution-logo-grid">
+                  <div class="institution-logo-card">
+                    <span class="institution-index">1</span>
+                    <img src="images/ECNU.png" alt="East China Normal University logo" loading="lazy">
+                  </div>
+                  <div class="institution-logo-card">
+                    <span class="institution-index">2</span>
+                    <img src="images/北舞.jpg" alt="Beijing Dance Academy logo" loading="lazy">
+                  </div>
+                  <div class="institution-logo-card">
+                    <span class="institution-index">3</span>
+                    <img src="images/北邮.jpg" alt="Beijing University of Posts and Telecommunications logo" loading="lazy">
+                  </div>
+                  <div class="institution-logo-card">
+                    <span class="institution-index">4</span>
+                    <img src="images/上纽大.jpg" alt="NYU Shanghai logo" loading="lazy">
+                  </div>
+                  <div class="institution-logo-card">
+                    <span class="institution-index">5</span>
+                    <img src="images/中关村学院.png" alt="Zhongguancun Academy logo" loading="lazy">
+                  </div>
+                  <div class="institution-logo-card">
+                    <span class="institution-index">6</span>
+                    <img src="images/中关村人工智能研究院.png" alt="Zhongguancun Institute of Artificial Intelligence logo" loading="lazy">
+                  </div>
+                </div>
+                <span class="eql-cntrb"><small><sup>*</sup>Joint First Authors &nbsp;&nbsp; <sup>&dagger;</sup>Joint Corresponding Authors</small></span>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/2604.18648" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2604.18648" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="images/head_2.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-image"></i>
+                      </span>
+                      <span>Figure</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://doi.org/10.48550/arXiv.2604.18648" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-link"></i>
+                      </span>
+                      <span>DOI</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
-
-            <h1 class="paper-title">DanceCrafter: Fine-Grained Text-Driven Controllable Dance Generation via Choreographic Syntax</h1>
-
-            <div class="author-list">
-              <span>Hang Yuan<sup>1,4,5,*</sup></span>
-              <span>Xiaolin Hu<sup>3,5,*</sup></span>
-              <span>Yan Wan<sup>2</sup></span>
-              <span>Menglin Gao<sup>2</sup></span>
-              <span>Wenzhe Yu<sup>2</sup></span>
-              <span>Cong Huang<sup>6</sup></span>
-              <span>Fei Xu<sup>2</sup></span>
-              <span>Qing Li<sup>2</sup></span>
-              <span>Christina Dan Wang<sup>4,&dagger;</sup></span>
-              <span>Zhou Yu<sup>1,&dagger;</sup></span>
-              <span>Kai Chen<sup>6,&dagger;</sup></span>
-            </div>
-
-            <div class="institution-grid" aria-label="Affiliations">
-              <div class="institution-card" title="East China Normal University">
-                <span class="institution-badge">1</span>
-                <img class="institution-logo" src="images/ECNU.png" alt="East China Normal University logo" loading="lazy">
-              </div>
-              <div class="institution-card" title="Beijing Dance Academy">
-                <span class="institution-badge">2</span>
-                <img class="institution-logo" src="images/北舞.jpg" alt="Beijing Dance Academy logo" loading="lazy">
-              </div>
-              <div class="institution-card" title="Beijing University of Posts and Telecommunications">
-                <span class="institution-badge">3</span>
-                <img class="institution-logo" src="images/北邮.jpg" alt="Beijing University of Posts and Telecommunications logo" loading="lazy">
-              </div>
-              <div class="institution-card" title="New York University Shanghai">
-                <span class="institution-badge">4</span>
-                <img class="institution-logo" src="images/上纽大.jpg" alt="New York University Shanghai logo" loading="lazy">
-              </div>
-              <div class="institution-card" title="Zhongguancun Academy">
-                <span class="institution-badge">5</span>
-                <img class="institution-logo" src="images/中关村学院.png" alt="Zhongguancun Academy logo" loading="lazy">
-              </div>
-              <div class="institution-card" title="Zhongguancun Institute of Artificial Intelligence">
-                <span class="institution-badge">6</span>
-                <img class="institution-logo" src="images/中关村人工智能研究院.png" alt="Zhongguancun Institute of Artificial Intelligence logo" loading="lazy">
-              </div>
-            </div>
-
-            <p class="author-notes">
-              <span><sup>*</sup> Joint First Authors</span>
-              <span><sup>&dagger;</sup> Joint Corresponding Authors</span>
-            </p>
-
-            <div class="hero-actions">
-              <a class="button action-button is-primary" href="https://arxiv.org/pdf/2604.18648" target="_blank" rel="noopener">
-                <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                <span>Paper PDF</span>
-              </a>
-              <a class="button action-button is-light" href="https://arxiv.org/abs/2604.18648" target="_blank" rel="noopener">
-                <span class="icon"><i class="ai ai-arxiv"></i></span>
-                <span>arXiv</span>
-              </a>
-              <a class="button action-button is-light" href="https://doi.org/10.48550/arXiv.2604.18648" target="_blank" rel="noopener">
-                <span class="icon"><i class="fas fa-link"></i></span>
-                <span>DOI</span>
-              </a>
-              <a class="button action-button is-light" href="images/head_2.pdf" target="_blank" rel="noopener">
-                <span class="icon"><i class="fas fa-image"></i></span>
-                <span>Figure PDF</span>
-              </a>
-            </div>
-
-            <div class="stat-grid">
-              <article class="stat-card">
-                <span class="stat-value">41h</span>
-                <span class="stat-label">High-quality motion data in DanceFlow</span>
-              </article>
-              <article class="stat-card">
-                <span class="stat-value">6.34M</span>
-                <span class="stat-label">Words of fine-grained dance descriptions</span>
-              </article>
-              <article class="stat-card">
-                <span class="stat-value">SOTA</span>
-                <span class="stat-label">Motion quality, controllability, and naturalness</span>
-              </article>
-            </div>
-          </div>
-
-          <div class="hero-media">
-            <figure class="overview-card" id="overview">
-              <img src="static/images/dancecrafter-head.png" alt="Overview figure for DanceCrafter" loading="eager">
-              <figcaption>
-                Overview figure from the paper. Open the figure PDF for the original vector version.
-              </figcaption>
-            </figure>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-soft">
+    <section class="hero teaser">
       <div class="container is-max-desktop">
-        <div class="section-heading">
-          <p class="eyebrow">Abstract</p>
-          <h2 class="title is-3">What the paper does</h2>
-        </div>
-        <div class="abstract-card">
-          <p>
-            Text-driven controllable dance generation remains under-explored, primarily due to the severe scarcity of high-quality datasets and the inherent difficulty of articulating complex choreographies. Characterizing dance is particularly challenging owing to its intricate spatial dynamics, strong directionality, and the highly decoupled movements of distinct body parts.
-          </p>
-          <p>
-            To address these issues, DanceCrafter introduces <strong>Choreographic Syntax</strong>, a theoretical framework grounded in dance studies, human anatomy, and biomechanics, together with a tailored annotation system. Based on this syntax, the work builds <strong>DanceFlow</strong>, a fine-grained dance dataset containing 41 hours of high-quality motions paired with 6.34 million words of detailed descriptions.
-          </p>
-          <p>
-            At the model level, the paper proposes a tailored motion transformer built upon the Momentum Human Rig, together with a continuous manifold motion representation, hybrid normalization, and an anatomy-aware loss. Extensive experiments and user studies show strong performance in motion fidelity, fine-grained controllability, and generation naturalness.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="highlights">
-      <div class="container is-max-desktop">
-        <div class="section-heading">
-          <p class="eyebrow">Highlights</p>
-          <h2 class="title is-3">Core contributions</h2>
-        </div>
-
-        <div class="feature-grid">
-          <article class="feature-card">
-            <h3>Choreographic Syntax</h3>
-            <p>
-              A dance-centered annotation framework that describes complex choreography with stronger spatial, directional, and body-part awareness.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>DanceFlow Dataset</h3>
-            <p>
-              A large-scale fine-grained dance corpus combining professional dance archives and high-fidelity motion capture data.
-            </p>
-          </article>
-          <article class="feature-card">
-            <h3>DanceCrafter Model</h3>
-            <p>
-              A tailored motion transformer with continuous manifold representation, hybrid normalization, and anatomy-aware supervision.
-            </p>
-          </article>
-        </div>
-
-        <div class="resource-grid">
-          <article class="resource-card">
-            <h3>Paper</h3>
-            <p>Read the full paper on arXiv PDF.</p>
-            <a href="https://arxiv.org/pdf/2604.18648" target="_blank" rel="noopener">Open PDF</a>
-          </article>
-          <article class="resource-card">
-            <h3>Abstract Page</h3>
-            <p>See the arXiv abstract, metadata, and citation record.</p>
-            <a href="https://arxiv.org/abs/2604.18648" target="_blank" rel="noopener">Open arXiv</a>
-          </article>
-          <article class="resource-card">
-            <h3>Overview Figure</h3>
-            <p>Download the original vector figure used as the page head image.</p>
-            <a href="images/head_2.pdf" target="_blank" rel="noopener">Open Figure PDF</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-soft" id="videos">
-      <div class="container is-max-desktop">
-        <div class="section-heading">
-          <p class="eyebrow">Video Collections</p>
-          <h2 class="title is-3">Project videos</h2>
-          <p class="section-note">
-            The page is already split into the three sections you mentioned. Replace each placeholder block with your final clips when the assets are ready.
-          </p>
-        </div>
-
-        <div class="video-groups">
-          <article class="video-group">
-            <div class="group-label">Part 1</div>
-            <h3>Motion Capture Dataset</h3>
-            <p>
-              Use this block for representative motion-capture sequences, synchronized previews, or short curated examples from the mocap subset.
-            </p>
-            <!-- Replace this placeholder with a grid of video cards for motion capture examples. -->
-            <div class="placeholder-panel">
-              <strong>Placeholder ready</strong>
-              <p>Add your clips here when the motion capture videos are ready.</p>
-            </div>
-          </article>
-
-          <article class="video-group">
-            <div class="group-label">Part 2</div>
-            <h3>Video Dataset</h3>
-            <p>
-              Use this section for source dance videos, paired annotations, or selected examples that show the diversity of the video dataset.
-            </p>
-            <!-- Replace this placeholder with a grid of video cards for video-dataset examples. -->
-            <div class="placeholder-panel">
-              <strong>Placeholder ready</strong>
-              <p>Add your clips here when the video dataset examples are ready.</p>
-            </div>
-          </article>
-
-          <article class="video-group">
-            <div class="group-label">Part 3</div>
-            <h3>Generated Motion Videos</h3>
-            <p>
-              Use this area for generated results, prompt-conditioned comparisons, or side-by-side demonstrations of controllable motion quality.
-            </p>
-            <!-- Replace this placeholder with a grid of video cards for generated-motion examples. -->
-            <div class="placeholder-panel">
-              <strong>Placeholder ready</strong>
-              <p>Add your clips here when the generated motion videos are ready.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="bibtex">
-      <div class="container is-max-desktop">
-        <div class="bibtex-shell">
-          <div class="bibtex-header">
-            <div>
-              <p class="eyebrow">Citation</p>
-              <h2 class="title is-3">BibTeX</h2>
-            </div>
-            <button class="copy-bibtex-btn" type="button" onclick="copyBibTeX()" aria-label="Copy BibTeX">
-              <i class="fas fa-copy"></i>
-              <span class="copy-text">Copy</span>
-            </button>
+        <div class="hero-body">
+          <div class="publication-banner">
+            <img src="static/images/dancecrafter-head.png" alt="DanceCrafter overview figure" loading="eager">
           </div>
-          <pre id="bibtex-code"><code>@misc{yuan2026dancecrafterfinegrainedtextdrivencontrollable,
+          <h2 class="subtitle has-text-centered">
+            Overview of DanceCrafter, Choreographic Syntax, and the DanceFlow dataset. The original vector figure is available through the Figure button above.
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Text-driven controllable dance generation remains under-explored, primarily due to the severe scarcity of high-quality datasets and the inherent difficulty of articulating complex choreographies. Characterizing dance is particularly challenging owing to its intricate spatial dynamics, strong directionality, and the highly decoupled movements of distinct body parts. To overcome these bottlenecks, we bridge principles from dance studies, human anatomy, and biomechanics to propose <i>Choreographic Syntax</i>, a novel theoretical framework with a tailored annotation system. Grounded in this syntax, we combine professional dance archives with high-fidelity motion capture data to construct <b>DanceFlow</b>, the most fine-grained dance dataset to date. It encompasses 41 hours of high-quality motions paired with 6.34 million words of detailed descriptions. At the model level, we introduce <b>DanceCrafter</b>, a tailored motion transformer built upon the Momentum Human Rig. To circumvent optimization instabilities, we construct a continuous manifold motion representation paired with a hybrid normalization strategy. Furthermore, we design an anatomy-aware loss to explicitly regulate the decoupled nature of body parts. Together, these adaptations empower DanceCrafter to achieve the high-fidelity and stable generation of complex dance sequences. Extensive evaluations and user studies demonstrate our state-of-the-art performance in motion quality, fine-grained controllability, and generation naturalness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <h2 class="title is-3">Highlights</h2>
+          <div class="highlight-grid">
+            <div class="highlight-card">
+              <h3>Choreographic Syntax</h3>
+              <p>A fine-grained framework for describing complex dance movements with spatial, directional, and body-part awareness.</p>
+            </div>
+            <div class="highlight-card">
+              <h3>DanceFlow Dataset</h3>
+              <p>41 hours of high-quality dance motions with 6.34 million words of detailed descriptions.</p>
+            </div>
+            <div class="highlight-card">
+              <h3>DanceCrafter</h3>
+              <p>A tailored motion transformer with continuous manifold motion representation, hybrid normalization, and anatomy-aware supervision.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-small is-light">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3">Motion Capture Dataset</h2>
+          <div class="video-placeholder-grid">
+            <div class="video-placeholder-card">
+              <h3>Mocap Examples</h3>
+              <p>Replace this block with representative motion capture videos from the DanceFlow mocap subset.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>Prompt Alignment</h3>
+              <p>Add clips that demonstrate how the fine-grained text descriptions align with detailed body-part motions.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>Quality Showcase</h3>
+              <p>Use this slot for curated mocap samples with the cleanest and most diverse choreographic patterns.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3">Video Dataset</h2>
+          <div class="video-placeholder-grid">
+            <div class="video-placeholder-card">
+              <h3>Raw Video Samples</h3>
+              <p>Replace this block with curated source dance videos from the video subset of the dataset.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>Annotation Examples</h3>
+              <p>Add examples that show the correspondence between video content and Choreographic Syntax descriptions.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>Diversity Showcase</h3>
+              <p>Use this card for clips that highlight style, tempo, and choreography diversity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-small is-light">
+      <div class="hero-body">
+        <div class="container">
+          <h2 class="title is-3">Generated Motion Videos</h2>
+          <div class="video-placeholder-grid">
+            <div class="video-placeholder-card">
+              <h3>Generation Results</h3>
+              <p>Replace this block with prompt-driven generated motion videos from DanceCrafter.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>Controllability</h3>
+              <p>Add side-by-side comparisons to show fine-grained control over body parts, direction, and choreography details.</p>
+            </div>
+            <div class="video-placeholder-card">
+              <h3>User Study Cases</h3>
+              <p>Use this slot for the strongest qualitative examples used in the paper and supplementary evaluation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code"><code>@misc{yuan2026dancecrafterfinegrainedtextdrivencontrollable,
   title={DanceCrafter: Fine-Grained Text-Driven Controllable Dance Generation via Choreographic Syntax},
   author={Hang Yuan and Xiaolin Hu and Yan Wan and Menglin Gao and Wenzhe Yu and Cong Huang and Fei Xu and Qing Li and Christina Dan Wang and Zhou Yu and Kai Chen},
   year={2026},
@@ -369,17 +345,23 @@
   primaryClass={cs.CV},
   url={https://arxiv.org/abs/2604.18648}
 }</code></pre>
-        </div>
       </div>
     </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container is-max-desktop">
-      <p>
-        Project page for <strong>DanceCrafter</strong>. Built from your GitHub Pages site and customized for paper figures, links, and upcoming video galleries.
-      </p>
-    </div>
-  </footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
