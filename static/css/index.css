@@ -116,23 +116,15 @@ body {
 }
 
 .publication-banner {
-  max-height: 70vh;
-  border-radius: var(--border-radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-xl);
-  margin: 2rem 0;
+  margin: 1rem 0 1.5rem;
 }
 
 .publication-banner img {
   width: 100%;
-  border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition);
-}
-
-.publication-banner img:hover {
-  transform: scale(1.01);
-  box-shadow: var(--shadow-xl);
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
 }
 
 .publication-authors {
