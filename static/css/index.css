@@ -469,6 +469,18 @@ code {
   box-shadow: var(--shadow-md);
 }
 
+.dataset-video-grid {
+  gap: 1rem;
+}
+
+.dataset-video-card {
+  padding: 0.85rem;
+}
+
+.dataset-video-card .publication-video {
+  margin-bottom: 0;
+}
+
 .generated-video-list {
   display: grid;
   grid-template-columns: 1fr;
@@ -480,7 +492,7 @@ code {
 }
 
 .generated-video-player {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 0 auto 1.25rem;
 }
 
