@@ -98,8 +98,13 @@ body {
   padding: 4rem 1.5rem;
 }
 
+.publication-header .hero-body {
+  padding-top: 4rem;
+  padding-bottom: 0.25rem;
+}
+
 .teaser .hero-body {
-  padding-top: 0.5rem;
+  padding-top: 0;
   padding-bottom: 2rem;
 }
 
@@ -477,6 +482,11 @@ code {
     padding: 2rem 1rem;
   }
 
+  .publication-header .hero-body {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+
   .publication-title {
     font-size: 2.3rem !important;
     line-height: 1.2 !important;
@@ -515,6 +525,11 @@ code {
 
   .hero-body {
     padding: 1.5rem 0.75rem;
+  }
+
+  .publication-header .hero-body {
+    padding-top: 1.5rem;
+    padding-bottom: 0;
   }
 
   .institution-logo-grid,
