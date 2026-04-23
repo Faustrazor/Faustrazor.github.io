@@ -500,11 +500,49 @@ code {
   margin-top: 1rem;
 }
 
+.generated-pipeline-card {
+  padding: 1.75rem;
+}
+
+.pipeline-media-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.pipeline-step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.pipeline-label {
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.pipeline-step img {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+
+.pipeline-video {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .institution-logo-grid,
   .highlight-grid,
   .video-placeholder-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pipeline-media-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -566,6 +604,10 @@ code {
   .institution-logo-grid,
   .highlight-grid,
   .video-placeholder-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pipeline-media-grid {
     grid-template-columns: 1fr;
   }
 
