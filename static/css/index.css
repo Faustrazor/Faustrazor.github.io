@@ -99,13 +99,13 @@ body {
 }
 
 .publication-header .hero-body {
-  padding-top: 4rem;
-  padding-bottom: 0.25rem;
+  padding-top: 3.5rem;
+  padding-bottom: 0;
 }
 
 .teaser .hero-body {
   padding-top: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .teaser {
@@ -126,7 +126,7 @@ body {
 }
 
 .publication-banner {
-  margin: 0.35rem 0 0.45rem;
+  margin: 0 0 0.15rem;
 }
 
 .publication-banner img {
@@ -138,11 +138,11 @@ body {
 }
 
 .publication-links {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0;
 }
 
 .teaser .subtitle {
-  margin-top: 0.2rem !important;
+  margin-top: 0 !important;
   margin-bottom: 0 !important;
   line-height: 1.35;
 }
@@ -483,7 +483,7 @@ code {
   }
 
   .publication-header .hero-body {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 0;
   }
 
@@ -510,7 +510,7 @@ code {
   }
 
   .teaser .hero-body {
-    padding: 0.5rem 0.5rem 1.25rem;
+    padding: 0 0.5rem 0.75rem;
   }
 
   .content.has-text-justified {
@@ -528,7 +528,7 @@ code {
   }
 
   .publication-header .hero-body {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-bottom: 0;
   }
 
