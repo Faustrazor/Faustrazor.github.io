@@ -99,13 +99,13 @@ body {
 }
 
 .publication-header .hero-body {
-  padding-top: 3.5rem;
-  padding-bottom: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .teaser .hero-body {
-  padding-top: 0;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .teaser {
@@ -126,7 +126,7 @@ body {
 }
 
 .publication-banner {
-  margin: 0 0 0.15rem;
+  margin: 2rem 0;
 }
 
 .publication-banner img {
@@ -138,11 +138,11 @@ body {
 }
 
 .publication-links {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .teaser .subtitle {
-  margin-top: 0 !important;
+  margin-top: 1rem !important;
   margin-bottom: 0 !important;
   line-height: 1.35;
 }
@@ -483,8 +483,8 @@ code {
   }
 
   .publication-header .hero-body {
-    padding-top: 1.5rem;
-    padding-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 
   .publication-title {
@@ -510,7 +510,7 @@ code {
   }
 
   .teaser .hero-body {
-    padding: 0 0.5rem 0.75rem;
+    padding: 1rem;
   }
 
   .content.has-text-justified {
@@ -528,8 +528,8 @@ code {
   }
 
   .publication-header .hero-body {
-    padding-top: 1rem;
-    padding-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
   }
 
   .institution-logo-grid,
