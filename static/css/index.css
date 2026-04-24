@@ -575,6 +575,7 @@ code {
 }
 
 .pipeline-video-bottom-row .pipeline-step {
+  flex: 0 0 calc((100% - 0.85rem) / 2);
   width: calc((100% - 0.85rem) / 2);
   max-width: calc((100% - 0.85rem) / 2);
 }
@@ -668,6 +669,7 @@ code {
   }
 
   .pipeline-video-bottom-row .pipeline-step {
+    flex-basis: 100%;
     width: 100%;
     max-width: 100%;
   }
