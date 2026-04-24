@@ -556,6 +556,12 @@ code {
   gap: 0.85rem;
 }
 
+.pipeline-video-bottom-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 .pipeline-video-bottom-row,
 .pipeline-video-top-row,
 .pipeline-video-bottom-row .pipeline-step,
@@ -566,6 +572,11 @@ code {
 .pipeline-video-bottom-row .pipeline-step,
 .pipeline-video-top-row .pipeline-step {
   height: 100%;
+}
+
+.pipeline-video-bottom-row .pipeline-step {
+  width: calc((100% - 0.85rem) / 2);
+  max-width: calc((100% - 0.85rem) / 2);
 }
 
 .pipeline-video {
@@ -654,6 +665,11 @@ code {
 
   .pipeline-video-top-row {
     grid-template-columns: 1fr;
+  }
+
+  .pipeline-video-bottom-row .pipeline-step {
+    width: 100%;
+    max-width: 100%;
   }
 
   .link-block {
